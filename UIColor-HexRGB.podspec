@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { "lslin" => "xappbox@gmail.com" }
   s.source   = { :git => 'https://github.com/tinymind/UIColor-HexRGB.git', :tag => s.version.to_s}
   s.platform = :ios, '4.3'  
+  s.watchos.deployment_target = "2.0"
   s.requires_arc = true  
   
   s.source_files = 'Classes/*'
